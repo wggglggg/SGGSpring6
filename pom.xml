@@ -10,7 +10,11 @@
     <packaging>pom</packaging>
     <modules>
         <module>spring-01-first</module>
-        <module>spring-03-make-a-ico</module>
+        <module>spring-03-make-a-ioc</module>
+        <module>spring-02-ioc-xml</module>
+        <module>spring-07-jdbc-tx</module>
+        <module>spring-08-resources</module>
+        <module>spring-09-i18n</module>
     </modules>
 
     <properties>
@@ -79,6 +83,28 @@
             <artifactId>spring-test</artifactId>
             <version>6.0.11</version>
         </dependency>
+
+        <!-- MySQL驱动 -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
+        </dependency>
+
+        <!-- 数据源 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>druid</artifactId>
+            <version>1.2.15</version>
+        </dependency>
+
+        <!--spring jdbc  Spring 持久化层支持jar包-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>6.0.2</version>
+        </dependency>
+
     </dependencies>
 
 </project>
