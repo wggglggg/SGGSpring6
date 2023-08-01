@@ -10,6 +10,7 @@
         <module name="spring-09-i18n" />
         <module name="spring-02-ioc-xml" />
         <module name="spring-03-make-a-ioc" />
+        <module name="spring-10-validatetor" />
         <module name="spring-08-resources" />
         <module name="spring-01-first" />
       </profile>

@@ -15,6 +15,7 @@
         <module>spring-07-jdbc-tx</module>
         <module>spring-08-resources</module>
         <module>spring-09-i18n</module>
+        <module>spring-10-validatetor</module>
     </modules>
 
     <properties>
@@ -103,6 +104,19 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-jdbc</artifactId>
             <version>6.0.2</version>
+        </dependency>
+
+        <!--validate校验-->
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>8.0.1.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>jakarta.el</artifactId>
+            <version>4.0.2</version>
         </dependency>
 
     </dependencies>
